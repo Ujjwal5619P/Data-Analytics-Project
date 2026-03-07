@@ -82,23 +82,47 @@ The story section explains the insights step-by-step, showing how different heal
 
 ## 📂 Project Structure
 
+## 📂 Project Structure
+
+The repository is organized into multiple folders for better understanding of the project workflow.
+
 ```
 Heart-Disease-Analysis
 │
-├── dataset/
-│   └── heart_disease.csv
+├── DataSet/
+│   ├── heart_disease.csv
+│   └── dataset_screenshot.png
 │
-├── tableau/
-│   ├── dashboard.twb
-│   └── story.twb
+├── Sql queries (store data in DB)/
+│   ├── create_table.sql
+│   ├── analysis_queries.sql
+│   └── sql_execution_screenshot.png
 │
-├── sql/
-│   └── analysis_queries.sql
+├── Visualization (Tableau)/
+│   ├── tableau_sheets.twb
+│   └── visualization_screenshot.png
+│
+├── Dashboard/
+│   ├── heart_disease_dashboard.twb
+│   └── dashboard_screenshot.png
+│
+├── Story/
+│   ├── tableau_story.twb
+│   └── story_screenshot.png
+│
+├── Utilization of Data Filters and No of calculated field/
+│   ├── calculated_fields_details.txt
+│   └── screenshot.png
+│
+├── Web Integration/
+│   ├── 
+│   └── 
 │
 └── README.md
 ```
 
----
+Each folder contains relevant files along with screenshots demonstrating the steps and results of the analysis process.
+
 
 ## 🚀 How to Use
 
